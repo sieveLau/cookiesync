@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Bilibili Cookie Uploader",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Extract cookies from bilibili.com and send them to a specified URL. Only the configured URL is stored locally, no information is recorded or sent to any server other than the URL configured.",
   "permissions": [
     "cookies",
