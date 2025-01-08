@@ -1,0 +1,1 @@
+Firefox 插件，根据设置的 URL 把 bilibili.com 域名下的所有 cookies 以 `key1=value1;key2=value2;...` 的方式用 POST 上传。
