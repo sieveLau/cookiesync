@@ -6,8 +6,12 @@
   "permissions": [
     "cookies",
     "activeTab",
-    "alarms"
+    "alarms",
+    "storage"
   ],
+  "options_ui": {
+      "page": "options.html"
+  },
   "icons": {
     "48": "border-48.png"
   },
