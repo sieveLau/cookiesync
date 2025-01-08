@@ -1,1 +1,3 @@
-Firefox 插件，根据设置的 URL 把 bilibili.com 域名下的所有 cookies 以 `key1=value1;key2=value2;...` 的方式用 POST 上传。
+A Firefox extension that uploads all cookies under the `bilibili.com` domain in the format `key1=value1;key2=value2;...` via a POST request based on the configured URL.
+
+`options.html` and `options.js` are borrowed from [mozilla's examples](https://github.com/mdn/webextensions-examples/tree/main/favourite-colour). Logo `border-48.png` is from Google Material Design iconset licensed under [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/3.0/).

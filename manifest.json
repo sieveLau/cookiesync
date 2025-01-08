@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Bilibili Cookie Extractor",
+  "name": "Bilibili Cookie Uploader",
   "version": "1.0",
-  "description": "Extract cookies from bilibili.com and send them to a specified URL.",
+  "description": "Extract cookies from bilibili.com and send them to a specified URL. Only the configured URL is stored locally, no information is recorded or sent to any server other than the URL configured.",
   "permissions": [
     "cookies",
     "activeTab",
@@ -34,7 +34,7 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "sievelau@gmail.com",
-      "strict_min_version": "58.0"
+      "strict_min_version": "109.0"
     }
   }
 
