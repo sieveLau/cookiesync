@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Bilibili Cookie Extractor",
+  "version": "1.0",
+  "description": "Extract cookies from bilibili.com and send them to a specified URL.",
+  "permissions": [
+    "cookies",
+    "activeTab",
+    "alarms"
+  ],
+  "icons": {
+    "48": "border-48.png"
+  },
+  "host_permissions": [
+    "*://*.bilibili.com/"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.bilibili.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "sievelau@gmail.com",
+      "strict_min_version": "58.0"
+    }
+  }
+
+}
