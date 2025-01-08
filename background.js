@@ -11,7 +11,7 @@ browser.runtime.onInstalled.addListener(async ({ reason }) => {
 
 async function sendCookiesToServer(cookies) {
   let res = await browser.storage.local.get('url');
-  let url = res.url || 'http://localhost';
+  let url = res.url || 'https://localhost';
 
   fetch(url, {
     method: 'POST',
